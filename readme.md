@@ -14,7 +14,7 @@ Repositório dedicado ao armazenamento de exercícios, desafios práticos e trab
 
 ## 📂 Estrutura do Repositório
 
-O conteúdo está organizado por módulos/tópicos abordados ao longo do semestre:
+O conteúdo está organizado por módulos/tópicos abordados ao longo do trimestre:
 
 - `01-introdução-à-lógica-e-algoritmos` - Introdução, tutorial do Pycharm e Google Colab
 - `02-variaveis-e-expressoes/` — Tipos de dados, operações aritméticas e entrada/saída de dados (`input`/`print`).
