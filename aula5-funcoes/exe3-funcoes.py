@@ -4,8 +4,17 @@
 # que somente valores positivos sejam aceitos.
 # Crie o help da sua função.
 
-def fatorial(num):
+def valida_int(pergunta, min, max):
+  x = int(input(pergunta))
+  while((x < min) or (x > max)):
+    x = int(input(pergunta))
+  return x
 
+def fatorial(num):
+  """
+  Função que calcula a fatorial de um número inteiro.
+  
+  """
   fat = 1
   if (num == 0):
     return fat
@@ -14,5 +23,7 @@ def fatorial(num):
     fat += i
   return fat
 
-x = int(input('Digite um valor para calcular a fatorial: '))
+x = valida_int('Digite um valor para calcular a fatorial: ', 0, 99999)
 print(f'{x}! = {fatorial(x)}')
+
+help(fatorial)
