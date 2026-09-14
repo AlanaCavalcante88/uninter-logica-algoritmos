@@ -57,3 +57,5 @@ print(lista_referenciada)
 # mochila.append('Ovos')
 # variável.função(parâmetro). Exemplo: a mochila é o nome do método, por isso ficou mochila.append
 # append é um exemplo de método
+
+# Métodos de matriz: https://www.w3schools.com/python/python_arrays.asp
