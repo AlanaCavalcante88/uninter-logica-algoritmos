@@ -3,7 +3,7 @@
 palavras = ('Mario', 'Luidg', 'Peach', 'Yoshi', 'Bowser')
 
 for palavra in palavras:
-  print(f'\nPalavra: {palavra.upper()}. Voagais: ')
+  print(f'\nPalavra: {palavra.upper()}. Vogais: ')
   for letra in palavra:
-    if letra.lower() in 'aeiou': # convertendo tudo para minúsculo primeiro
-      print(letra.upper(), end='')
+    if letra.lower() in 'aeiou': # convertendo tudo para minúsculo primeiro e depois verificar se a letra está contida nas vogais 'a', 'e', 'i', 'o' e 'u'
+      print(letra.upper(), end=' ') # print da letra em maiúsculo e cada print sem dar enter com espaço
